@@ -148,7 +148,15 @@ module.exports = {
         commands: ['neofetch'],
         allowedShells: ['zsh', 'bash']
       } 
-    ]
+    ],
+    hyperline: {                                                                 
+    	plugins: [  
+    		"hostname",                                                                                                                                   
+      		"cpu",                                                                   
+      		"memory",
+      		"network"                                                                
+    	]                                                                          
+  	}
 
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
@@ -164,11 +172,11 @@ module.exports = {
     "hyper-pane",
     "hyperterm-dibdabs",
     "hyperlinks",
-    "hyper-statusline",
     "hyper-save-windowstate",
     "gitrocket",
     "hyper-init",
-    "hyper-autohide-tabs"
+    "hyper-autohide-tabs",
+    "hyperline"
   ],
 
   // in development, you can create a directory under
