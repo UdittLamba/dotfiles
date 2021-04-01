@@ -176,7 +176,8 @@ module.exports = {
     "gitrocket",
     "hyper-init",
     "hyper-autohide-tabs",
-    "hyperline"
+    "hyperline",
+    "hyper-tabs-autohide"
   ],
 
   // in development, you can create a directory under
